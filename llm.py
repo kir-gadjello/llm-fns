@@ -4,7 +4,7 @@ import time
 import json
 from threading import Lock
 
-from pmemo import memo_cache_get, memo_cache_set, universal_hash
+from .pmemo import memo_cache_get, memo_cache_set, universal_hash
 
 rate_limiter_state = {}
 rate_limiter_lock = Lock()
